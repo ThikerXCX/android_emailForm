@@ -10,22 +10,26 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Kepada :"/>
+        android:hint="Kepada :"
+        android:id="@+id/textKepada"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Subjek :"/>
+        android:hint="Subjek :"
+        android:id="@+id/textSubjek"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:hint="Pesa :"
+        android:hint="Pesan :"
         android:gravity="top"
+        android:id="@+id/textPesan"
         />
     <Button
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:text="Kirim"
+        android:id="@+id/btnKirim"
         />
 </LinearLayout>
