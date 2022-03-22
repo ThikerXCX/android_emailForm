@@ -5,18 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="10dp">
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Kepada :"
-        android:id="@+id/textKepada"/>
+        android:id="@+id/textKepada"
+        android:padding="10dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Subjek :"
-        android:id="@+id/textSubjek"/>
+        android:id="@+id/textSubjek"
+        android:padding="10dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -24,6 +27,7 @@
         android:hint="Pesan :"
         android:gravity="top"
         android:id="@+id/textPesan"
+        android:padding="10dp"
         />
     <Button
         android:layout_width="100dp"
